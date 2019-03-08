@@ -74,5 +74,13 @@
       },
       "expected": [1903, 3, 4]
     }
+    {
+      "description": "deal with non-integers",
+      "property": "create",
+      "input": {
+        "string": "one two\nthree four",
+      },
+      "expected": {"error": "Values are not numbers"}
+    }
   ]
 }
